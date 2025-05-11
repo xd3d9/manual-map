@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="proc">
+      <UniqueIdentifier>{7a9f0f86-b441-4e72-a265-8cf39a6877e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="injection ahh">
+      <UniqueIdentifier>{a11eeb55-cbb0-4c86-b3f1-c68cd62d86d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="prot">
+      <UniqueIdentifier>{cfdacbcd-bdfb-4400-bac8-eda0e49caf4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thread shit">
+      <UniqueIdentifier>{8c2a07aa-765d-4e57-b1ec-6c488ef32cb7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="threadm.h">
+      <Filter>thread shit</Filter>
+    </ClInclude>
+    <ClInclude Include="process.h">
+      <Filter>proc</Filter>
+    </ClInclude>
+    <ClInclude Include="manualmap.h">
+      <Filter>injection ahh</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg_prot.h">
+      <Filter>prot</Filter>
+    </ClInclude>
+    <ClInclude Include="mem_prot.h">
+      <Filter>prot</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="threadm.cpp">
+      <Filter>thread shit</Filter>
+    </ClCompile>
+    <ClCompile Include="manualmap.cpp">
+      <Filter>injection ahh</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg_prot.cpp">
+      <Filter>prot</Filter>
+    </ClCompile>
+    <ClCompile Include="process.cpp">
+      <Filter>proc</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mem_prot.cpp">
+      <Filter>prot</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
